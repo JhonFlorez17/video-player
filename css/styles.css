@@ -1,0 +1,54 @@
+@import "../css/buttons.css";
+
+body {
+  background-color: #26b4bc;
+}
+
+.wrapper{
+  max-inline-size: 900px;
+  margin: auto;
+}
+
+.container{
+  position: relative;
+/*   border: 5px solid red;  */ 
+  margin-block-start: 50px;
+}
+
+.container video {
+  inline-size: 100%;
+  aspect-ratio: 16/9;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.video-tittle{
+  position: absolute;
+  color: #EDF5FC;
+  inset-block-start: 0;
+  inset-inline-start: 30px;
+}
+
+.controls{
+  position: absolute;
+  inset:0;
+  /* border: 3px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  opacity: 0;
+}
+
+.progress{
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline: 0;
+  display: flex;
+  padding: 12px;
+  opacity: 0;
+}
+
+.progress input{
+  flex: 1;
+}

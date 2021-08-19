@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Introduccion Video-Player</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container" id="container">
+      <video src="./videos/new video.mp4" poster="images/poster.jpg" muted id="video"></video>
+      <h2 class="video-tittle" id="tittle">Musica para programar</h2>
+      <div class="controls" id="controls">
+        <button id="retroceder" title="Retroceder" aria-label="Retroceder 10 Segundos"></button>
+        <button id="play" title="Play" aria-label="Play"></button>
+        <button id="pause" title="Pause" aria-label="Pause"></button>
+        <button id="avanzar" title="Avanzar" aria-label="Avanzar 10 Segundos"></button>
+      </div>
+      <div class="progress" id="contain-progress">
+        <input type="range" min="0" value="0" step="1" id="progress-bar">
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

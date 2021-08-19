@@ -1,0 +1,31 @@
+button{
+    /* border: 5px solid red; */
+    inline-size: 32px;
+    block-size: 32px;
+    background: none;
+    border: none;
+/*     position: absolute; */
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(.9);
+}
+
+button:hover{
+    transform: scale(.9);
+}
+
+#play {
+  background-image: url('../images/play.svg');
+}
+#pause {
+  background-image: url('../images/pause.svg');
+  display: none;
+}
+#avanzar{
+  background-image: url('../images/+10.svg');
+}
+#retroceder{
+  background-image: url('../images/-10.svg');
+}
